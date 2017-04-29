@@ -16,9 +16,21 @@ export class AppComponent {
 
     const config: FrameworkConfigSettings = {
       socialIcons: [
-        {imageFile: 'assets/social-fb-bw.png', alt: 'Facebook', link: 'http://www.facebook.com'},
-        {imageFile: 'assets/social-google-bw.png', alt: 'Google +', link: 'http://www.google.com'},
-        {imageFile: 'assets/social-twitter-bw.png', alt: 'Twitter', link: 'http://www.twitter.com'}
+        {
+          imageFile: 'assets/social-fb-bw.png',
+          alt: 'Facebook',
+          link: 'http://www.facebook.com'
+        },
+        {
+          imageFile: 'assets/social-google-bw.png',
+          alt: 'Google +',
+          link: 'http://www.google.com'
+        },
+        {
+          imageFile: 'assets/social-twitter-bw.png',
+          alt: 'Twitter',
+          link: 'http://www.twitter.com'
+        }
       ],
       showLanguageSelector: true,
       showUserControls: true,
