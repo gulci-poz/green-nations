@@ -1,5 +1,4 @@
 :host {
-  border: 1px solid black;
   display: flex;
 }
 
@@ -17,11 +16,9 @@
 }
 
 fw-top-bar {
-  border: 1px solid red;
   /*flex-grow: 0.5;*/
 }
 
 .menu {
-  border: 1px solid green;
   /*flex-grow: 0.5;*/
 }
